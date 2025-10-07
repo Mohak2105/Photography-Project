@@ -1,227 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
-  <script src="main.js"></script>
-  <title>Photowala Patil</title>
-</head>
-
-<body>
-  <header class="header" id="home">
-    <nav>
-      <ul class="nav_links" id="nav-links">
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#about">ABOUT US</a></li>
-        <li class="nav_logo">
-          <a href="#">
-            <img src="Phtotowala logo. 01.png" alt="logo" />
-          </a>
-        </li>
-        <li><a href="#service">SERVICES</a></li>
-        <li><a href="login1.html">LOGIN</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <div class="section_container about_container" id="about">
-    <h2 class="section_header">WE CAPTURE THE MOMENTS</h2>
-    <p class="section_description">
-      At Capturer, we specialize in freezing those fleeting moments in time
-      that hold immense significance for you. With our passion for photography
-      and keen eye for detail, we transform ordinary moments into
-      extraordinary memories.
-    </p>
-    <p class="section_description">
-      Whether it's a milestone event, a candid portrait, or the breathtaking
-      beauty of nature, we strive to encapsulate the essence of every moment,
-      ensuring that your cherished memories last a lifetime. Trust us to
-      capture the magic of your life's journey, one frame at a time.
-    </p>
-    <img src="Phtotowala logo. 02 copy.png" alt="logo" />
-  </div>
-
-
-
-  <div class="section_container portfolio_container">
-    <h2 class="section_header">~ PORTFOLIO ~</h2>
-    <div class="portfolio_grid">
-      <div class="portfolio_card">
-        <img src="Photo.jpg" alt="portfolio" />
-        <div class="portfolio_content">
-          <button class="btn">VIEW PPORTFOLIO</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photowala Patil</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header" id="home">
+      <nav>
+        <div id="menu-btn">
+          <i class="ri-menu-line"></i>
         </div>
-      </div>
-      <div class="portfolio_card">
-        <img src="Photo2.jpg" alt="portfolio" />
-        <div class="portfolio_content">
-          <button class="btn">VIEW PPORTFOLIO</button>
-        </div>
-      </div>
-      <div class="portfolio_card">
-        <img src="Photo3.jpg" alt="portfolio" />
-        <div class="portfolio_content">
-          <button class="btn">VIEW PPORTFOLIO</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <section class="service" id="service">
-    <div class="section_container service_container">
-      <h2 class="section_header">~ SERVICES ~</h2>
-      <p class="section_description">
-        At Capturer, we offer a range of professional photography services
-        tailored to meet your unique needs. With a commitment to excellence
-        and creativity, we strive to exceed your expectations, delivering
-        captivating visuals that tell your story with authenticity and
-        passion.
-      </p>
-      <div class="service_grid">
-        <div class="service_card">
-          <h4>Portrait Sessions</h4>
-          <p>
-            Our portrait sessions are designed to showcase your personality
-            and style in stunning imagery.
-          </p>
-        </div>
-        <div class="service_card">
-          <h4>Maternity Sessions</h4>
-          <p>
-            Embrace the beauty and miracle of new life with our maternity and
-            newborn photography sessions.
-          </p>
-        </div>
-        <div class="service_card">
-          <h4>Family Sessions</h4>
-          <p>
-            Cherish the bond of family with our custom-designed playful candid
-            moments and portrait sessions.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section_container client_container" id="client">
-    <h2 class="section_header">~ TESTIMONIALS ~</h2>
-    <div class="swiper">
-
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="client_card">
-            <img src="AV7A1017.JPG" alt="client" />
-            <p>
-              Capturer exceeded all our expectations! Their attention to
-              detail and ability to capture the essence of our special day was
-              truly remarkable. Every time we look at our wedding photos,
-              we're transported back to those magical moments. Thank you for
-              preserving our memories so beautifully!
-            </p>
-            <h4>Mrudula</h4>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="client_card">
-            <img src="AV7A1039.jpg-.jpg" alt="client" />
-            <p>
-              We couldn't be happier with our family portrait session with
-              Capturer. They made us feel relaxed and comfortable throughout
-              the entire shoot, resulting in natural and candid photos that
-              perfectly reflect our family dynamic. These images will be
-              cherished for years to come!
-            </p>
-            <h4>The Patil Family</h4>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="client_card">
-            <img src="AV7A1613.JPG" alt="client" />
-            <p>
-              Capturer's maternity and newborn sessions captured the most
-              precious moments of our lives with such tenderness and care.
-              From the anticipation of pregnancy to the joy of welcoming our
-              little one, every photo tells a story that we'll cherish
-              forever. Thank you for creating beautiful memories for our
-              family!
-            </p>
-            <h4>Sakshi and Rakesh</h4>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </section>
-
-  <section class="section_container gallery_container">
-    <h2 class="section_header">~ GALLERY ~</h2>
-    <div class="gallery_grid">
-      <img src="Gallery1.jpg" alt="gallery" />
-      <img src="Gallery2.jpg" alt="gallery" />
-      <img src="Gallery3.jpg" alt="gallery" />
-      <img src="Gallery4.jpg" alt="gallery" />
-      <img src="Gallery5.jpg" alt="gallery" />
-      <img src="Gallery6.jpg" alt="gallery" />
-      <img src="Gallery7.jpg" alt="gallery" />
-      <img src="Gallery8.jpg" alt="gallery" />
-    </div>
-    <div class="gallery_btn">
-      <button class="btn">VIEW GALLERY</button>
-    </div>
-  </section>
-
-  <section class="blog" id="blog">
-    <div class="section_container blog_container">
-      <div class="blog_content">
-        <h2 class="section_header">~ LATEST BLOG ~</h2>
-        <h4>Capturing Emotion in Every Frame</h4>
-        <p>
-          This blog post delves into the importance of storytelling in
-          photography and how Capturer approaches capturing emotion and
-          narrative in their work. Readers will discover the techniques and
-          strategies used by professional photographers to evoke emotion,
-          convey meaning, and create compelling visual narratives that
-          resonate with viewers on a deep level.
-        </p>
-        <div class="blog_btn">
-          <button class="btn">Read More</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <footer id="contact">
-    <div class="section_container footer_container">
-      <div class="footer_col">
-        <img src="Phtotowala logo. 02 copy.png" alt="logo" />
-      </div>
-      <div class="footer_col">
-        <ul class="footer_links">
+        <ul class="nav_links" id="nav-links">
           <li><a href="#home">HOME</a></li>
           <li><a href="#about">ABOUT US</a></li>
+          <li class="nav_logo">
+            <a href="#">
+              <img src="Phtotowala logo. 01.png" alt="logo" />
+            </a>
+          </li>
           <li><a href="#service">SERVICES</a></li>
-          <li><a href="#client">CLIENT</a></li>
-          <li><a href="#blog">BLOG</a></li>
-          <li><a href="#contact">CONTACT US</a></li>
+          <li><a href="login1.html">LOGIN</a></li>
         </ul>
+      </nav>
+    </header>
+
+    <div class="section_container about_container" id="about">
+      <h2 class="section_header">WE CAPTURE THE MOMENTS</h2>
+      <p class="section_description">
+        At Capturer, we specialize in freezing those fleeting moments in time
+        that hold immense significance for you. With our passion for photography
+        and keen eye for detail, we transform ordinary moments into
+        extraordinary memories.
+      </p>
+      <p class="section_description">
+        Whether it's a milestone event, a candid portrait, or the breathtaking
+        beauty of nature, we strive to encapsulate the essence of every moment,
+        ensuring that your cherished memories last a lifetime.
+      </p>
+      <img src="Phtotowala logo. 02 copy.png" alt="logo" />
+    </div>
+
+    <div class="section_container portfolio_container">
+      <h2 class="section_header">~ PORTFOLIO ~</h2>
+      <div class="portfolio_grid">
+        <div class="portfolio_card">
+          <img src="Photo.jpg" alt="portfolio" />
+          <div class="portfolio_content">
+            <button class="btn">VIEW PORTFOLIO</button>
+          </div>
+        </div>
+        <div class="portfolio_card">
+          <img src="Photo2.jpg" alt="portfolio" />
+          <div class="portfolio_content">
+            <button class="btn">VIEW PORTFOLIO</button>
+          </div>
+        </div>
+        <div class="portfolio_card">
+          <img src="Photo3.jpg" alt="portfolio" />
+          <div class="portfolio_content">
+            <button class="btn">VIEW PORTFOLIO</button>
+          </div>
+        </div>
       </div>
-      <div class="footer_col">
-        <h4>STAY IN TOUCH</h4>
-        <p>
-          Keep up-to-date with all things Capturer! Join our community and
-          never miss a moment!
+    </div>
+
+    <section class="service" id="service">
+      <div class="section_container service_container">
+        <h2 class="section_header">~ SERVICES ~</h2>
+        <p class="section_description">
+          At Capturer, we offer a range of professional photography services
+          tailored to meet your unique needs.
         </p>
+        <div class="service_grid">
+          <div class="service_card">
+            <h4>Portrait Sessions</h4>
+            <p>Showcase your personality and style in stunning imagery.</p>
+          </div>
+          <div class="service_card">
+            <h4>Maternity Sessions</h4>
+            <p>Embrace the beauty and miracle of new life.</p>
+          </div>
+          <div class="service_card">
+            <h4>Family Sessions</h4>
+            <p>
+              Cherish the bond of family with our custom-designed playful candid
+              moments and portraits.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="footer_bar">
-      Copyright © 2024 Photowala Patil. All rights reserved.
-    </div>
-  </footer>
+    </section>
 
-</body>
+    <section class="section_container client_container" id="client">
+      <h2 class="section_header">~ TESTIMONIALS ~</h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="client_card">
+              <img src="AV7A1017.JPG" alt="client" />
+              <p>
+                Capturer exceeded all our expectations! Every photo brings back
+                the magic of our day.
+              </p>
+              <h4>Mrudula</h4>
+            </div>
+          </div>
 
+          <div class="swiper-slide">
+            <div class="client_card">
+              <img src="AV7A1039.jpg-.jpg" alt="client" />
+              <p>
+                Our family session felt relaxed and natural — the photos are
+                beautiful and timeless.
+              </p>
+              <h4>The Patil Family</h4>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="client_card">
+              <img src="AV7A1613.JPG" alt="client" />
+              <p>
+                Maternity and newborn photos captured with such tenderness —
+                thank you for these memories!
+              </p>
+              <h4>Sakshi and Rakesh</h4>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="section_container gallery_container">
+      <h2 class="section_header">~ GALLERY ~</h2>
+      <div class="gallery_grid">
+        <img src="Gallery1.jpg" alt="gallery" />
+        <img src="Gallery2.jpg" alt="gallery" />
+        <img src="Gallery3.jpg" alt="gallery" />
+        <img src="Gallery4.jpg" alt="gallery" />
+        <img src="Gallery5.jpg" alt="gallery" />
+        <img src="Gallery6.jpg" alt="gallery" />
+        <img src="Gallery7.jpg" alt="gallery" />
+        <img src="Gallery8.jpg" alt="gallery" />
+      </div>
+      <div class="gallery_btn">
+        <button class="btn">VIEW GALLERY</button>
+      </div>
+    </section>
+
+    <section class="blog" id="blog">
+      <div class="section_container blog_container">
+        <div class="blog_content">
+          <h2 class="section_header">~ LATEST BLOG ~</h2>
+          <h4>Capturing Emotion in Every Frame</h4>
+          <p>
+            Discover how storytelling and emotion bring depth to every
+            photograph. Learn our approach to creating meaningful visuals.
+          </p>
+          <div class="blog_btn">
+            <button class="btn">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="section_container footer_container">
+        <div class="footer_col">
+          <img src="Phtotowala logo. 02 copy.png" alt="logo" />
+        </div>
+        <div class="footer_col">
+          <ul class="footer_links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#service">SERVICES</a></li>
+            <li><a href="#client">CLIENT</a></li>
+            <li><a href="#blog">BLOG</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+          </ul>
+        </div>
+        <div class="footer_col">
+          <h4>STAY IN TOUCH</h4>
+          <p>
+            Keep up-to-date with all things Capturer! Join our community and
+            never miss a moment!
+          </p>
+        </div>
+      </div>
+      <div class="footer_bar">
+        Copyright © 2024 Photowala Patil. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
