@@ -1,5 +1,7 @@
 # 📸 Photowala Patil — Photography Portfolio Website
 
+# Photowala Patil 📸
+
 **Photowala Patil** is a modern, responsive photography portfolio website built using **HTML**, **CSS**, and **JavaScript**.  
 It showcases photography services, portfolios, testimonials, and blogs — designed for a professional photography business.
 
@@ -99,11 +101,3 @@ The website is fully responsive and adapts across devices:
 | Tablet (540px–768px) | Two-column grids |
 | Desktop (>768px) | Full three/four-column layout |
 
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/yourusername/photowala-patil.git
-cd photowala-patil
